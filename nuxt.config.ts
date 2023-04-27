@@ -38,15 +38,17 @@ export default defineNuxtConfig({
     '@unocss/nuxt',
     '@pinia/nuxt',
   ],
+
   colorMode: { preference: 'system', classSuffix: '' },
+
   pinia: {
     autoImports: ['defineStore', 'acceptHMRUpdate'],
   },
 
   runtimeConfig: {
-    apiSecret: 'yoAiwYIYYEX_g4YQtoquIGMeV57W-n-F',
+    apiSecret: '',
     public: {
-      apiBase: 'https://test.ztin.net',
+      apiBase: '',
     },
   },
 
@@ -61,5 +63,4 @@ export default defineNuxtConfig({
 
   sourcemap: { server: true, client: false },
   typescript: { shim: false },
-
 })

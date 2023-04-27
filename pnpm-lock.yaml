@@ -2,7 +2,6 @@ lockfileVersion: 5.4
 
 specifiers:
   '@antfu/eslint-config': ^0.38.5
-  '@iconify-json/mdi': ^1.1.50
   '@iconify-json/ri': ^1.1.8
   '@nuxt/devtools': ^0.4.1
   '@nuxtjs/color-mode': ^3.2.0
@@ -29,7 +28,6 @@ specifiers:
 
 devDependencies:
   '@antfu/eslint-config': 0.38.5_iacogk7kkaymxepzhgcbytyi7q
-  '@iconify-json/mdi': 1.1.50
   '@iconify-json/ri': 1.1.8
   '@nuxt/devtools': 0.4.2_nuxt@3.4.2
   '@nuxtjs/color-mode': 3.2.0
@@ -818,12 +816,6 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
-    dev: true
-
-  /@iconify-json/mdi/1.1.50:
-    resolution: {integrity: sha512-SgbT5w5eHCdOG74ZWPz7HlTGk6VsifIJhNi6lAsxj/5Nlqt6Cz4LlQmSa9eecU9p075Jub2aAx/o7YI+GCahRQ==}
-    dependencies:
-      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify-json/ri/1.1.8:
